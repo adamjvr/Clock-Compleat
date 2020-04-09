@@ -1,0 +1,71 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Crystal Y?
+U 1 1 5E4FBE22
+P 2300 3100
+F 0 "Y?" H 2300 3368 50  0000 C CNN
+F 1 "Crystal" H 2300 3277 50  0000 C CNN
+F 2 "" H 2300 3100 50  0001 C CNN
+F 3 "~" H 2300 3100 50  0001 C CNN
+	1    2300 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5E4FC7B4
+P 3800 3100
+F 0 "C?" H 3918 3146 50  0000 L CNN
+F 1 "CP" H 3918 3055 50  0000 L CNN
+F 2 "" H 3838 2950 50  0001 C CNN
+F 3 "~" H 3800 3100 50  0001 C CNN
+	1    3800 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5E4FCC12
+P 4450 3100
+F 0 "C?" H 4568 3146 50  0000 L CNN
+F 1 "CP" H 4568 3055 50  0000 L CNN
+F 2 "" H 4488 2950 50  0001 C CNN
+F 3 "~" H 4450 3100 50  0001 C CNN
+	1    4450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Microchip_ATmega:ATmega328P-PU U?
+U 1 1 5E508CA5
+P 3600 5150
+F 0 "U?" H 2956 5196 50  0000 R CNN
+F 1 "ATmega328P-PU" H 2956 5105 50  0000 R CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 3600 5150 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 3600 5150 50  0001 C CNN
+	1    3600 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E50A807
+P 5900 2550
+F 0 "R?" H 5970 2596 50  0000 L CNN
+F 1 "R" H 5970 2505 50  0000 L CNN
+F 2 "" V 5830 2550 50  0001 C CNN
+F 3 "~" H 5900 2550 50  0001 C CNN
+	1    5900 2550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
